@@ -152,7 +152,7 @@ function goBack() {
 window.addEventListener('load', () => {
     const lastShown = localStorage.getItem('promoTimestamp');
     const now = new Date().getTime();
-    const thirtyMinutes = 5 * 1000; // 30 minit  mm * ss * 1000;
+    const thirtyMinutes = 30 * 60 * 1000; // 30 minit  mm * ss * 1000;
 
     // Jika belum pernah ditunjukkan ATAU sudah lebih 30 minit
     if (!lastShown || (now - lastShown) > thirtyMinutes) {
@@ -178,4 +178,5 @@ function closePopup() {
         popup.style.display = 'none';
     }, 400);
 }
+
 
