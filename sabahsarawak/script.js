@@ -146,7 +146,6 @@ function goBack() {
         }, 50);
         
     }, 600); // Masa tunggu animasi priceSection selesai
-
 }
 
 // Logik Popup Promosi
