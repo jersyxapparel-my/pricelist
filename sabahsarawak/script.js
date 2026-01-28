@@ -161,7 +161,7 @@ window.addEventListener('load', () => {
             if (popup) {
                 popup.classList.add('show');
             }
-        }, 2000); // Muncul selepas 2 saat website dibuka
+        }, 900); // Muncul selepas 2 saat website dibuka
     }
 });
 
@@ -178,3 +178,4 @@ function closePopup() {
         popup.style.display = 'none';
     }, 400);
 }
+
